@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html" prefix="og: http://ogp.me/ns#">
+<style type="text/css">
+	.embed-responsive{
+		border-radius: 25px;
+	}
+</style>
+<head>
+    <meta charset="UTF-8"><script type="text/javascript">
+//<![CDATA[
+try{if (!window.CloudFlare) {var CloudFlare=[{verbose:0,p:1491046661,byc:0,owlid:"cf",bag2:1,mirage2:0,oracle:0,paths:{cloudflare:"/cdn-cgi/nexp/dok3v=1613a3a185/"},atok:"392a1069c76d68e1518d93e1339b42a3",petok:"6793753ad94f3b9093005b5c6718f5cede426d0d-1492076752-1800",zone:"wealthy.in",rocket:"0",apps:{"brwbl":{"a":"0","brwbl":"87,69,65,76,84,72,89"}}}];!function(a,b){a=document.createElement("script"),b=document.getElementsByTagName("script")[0],a.async=!0,a.src="//ajax.cloudflare.com/cdn-cgi/nexp/dok3v=905ca5bd16/cloudflare.min.js",b.parentNode.insertBefore(a,b)}()}}catch(e){};
+//]]>
+</script>
+<script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={xpid:"VQcDVFJTCxABUVRaAwABVA=="};window.NREUM||(NREUM={}),__nr_require=function(t,n,e){function r(e){if(!n[e]){var o=n[e]={exports:{}};t[e][0].call(o.exports,function(n){var o=t[e][1][n];return r(o||n)},o,o.exports)}return n[e].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<e.length;o++)r(e[o]);return r}({1:[function(t,n,e){function r(t){try{s.console&&console.log(t)}catch(n){}}var o,i=t("ee"),a=t(15),s={};try{o=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(s.console=!0,o.indexOf("dev")!==-1&&(s.dev=!0),o.indexOf("nr_dev")!==-1&&(s.nrDev=!0))}catch(c){}s.nrDev&&i.on("internal-error",function(t){r(t.stack)}),s.dev&&i.on("fn-err",function(t,n,e){r(e.stack)}),s.dev&&(r("NR AGENT IN DEVELOPMENT MODE"),r("flags: "+a(s,function(t,n){return t}).join(", ")))},{}],2:[function(t,n,e){function r(t,n,e,r,o){try{d?d-=1:i("err",[o||new UncaughtException(t,n,e)])}catch(s){try{i("ierr",[s,c.now(),!0])}catch(u){}}return"function"==typeof f&&f.apply(this,a(arguments))}function UncaughtException(t,n,e){this.message=t||"Uncaught error with no additional information",this.sourceURL=n,this.line=e}function o(t){i("err",[t,c.now()])}var i=t("handle"),a=t(16),s=t("ee"),c=t("loader"),f=window.onerror,u=!1,d=0;c.features.err=!0,t(1),window.onerror=r;try{throw new Error}catch(l){"stack"in l&&(t(8),t(7),"addEventListener"in window&&t(5),c.xhrWrappable&&t(9),u=!0)}s.on("fn-start",function(t,n,e){u&&(d+=1)}),s.on("fn-err",function(t,n,e){u&&(this.thrown=!0,o(e))}),s.on("fn-end",function(){u&&!this.thrown&&d>0&&(d-=1)}),s.on("internal-error",function(t){i("ierr",[t,c.now(),!0])})},{}],3:[function(t,n,e){t("loader").features.ins=!0},{}],4:[function(t,n,e){function r(t){}if(window.performance&&window.performance.timing&&window.performance.getEntriesByType){var o=t("ee"),i=t("handle"),a=t(8),s=t(7),c="learResourceTimings",f="addEventListener",u="resourcetimingbufferfull",d="bstResource",l="resource",p="-start",h="-end",m="fn"+p,w="fn"+h,v="bstTimer",y="pushState",g=t("loader");g.features.stn=!0,t(6);var b=NREUM.o.EV;o.on(m,function(t,n){var e=t[0];e instanceof b&&(this.bstStart=g.now())}),o.on(w,function(t,n){var e=t[0];e instanceof b&&i("bst",[e,n,this.bstStart,g.now()])}),a.on(m,function(t,n,e){this.bstStart=g.now(),this.bstType=e}),a.on(w,function(t,n){i(v,[n,this.bstStart,g.now(),this.bstType])}),s.on(m,function(){this.bstStart=g.now()}),s.on(w,function(t,n){i(v,[n,this.bstStart,g.now(),"requestAnimationFrame"])}),o.on(y+p,function(t){this.time=g.now(),this.startPath=location.pathname+location.hash}),o.on(y+h,function(t){i("bstHist",[location.pathname+location.hash,this.startPath,this.time])}),f in window.performance&&(window.performance["c"+c]?window.performance[f](u,function(t){i(d,[window.performance.getEntriesByType(l)]),window.performance["c"+c]()},!1):window.performance[f]("webkit"+u,function(t){i(d,[window.performance.getEntriesByType(l)]),window.performance["webkitC"+c]()},!1)),document[f]("scroll",r,{passive:!0}),document[f]("keypress",r,!1),document[f]("click",r,!1)}},{}],5:[function(t,n,e){function r(t){for(var n=t;n&&!n.hasOwnProperty(u);)n=Object.getPrototypeOf(n);n&&o(n)}function o(t){s.inPlace(t,[u,d],"-",i)}function i(t,n){return t[1]}var a=t("ee").get("events"),s=t(18)(a,!0),c=t("gos"),f=XMLHttpRequest,u="addEventListener",d="removeEventListener";n.exports=a,"getPrototypeOf"in Object?(r(document),r(window),r(f.prototype)):f.prototype.hasOwnProperty(u)&&(o(window),o(f.prototype)),a.on(u+"-start",function(t,n){var e=t[1],r=c(e,"nr@wrapped",function(){function t(){if("function"==typeof e.handleEvent)return e.handleEvent.apply(e,arguments)}var n={object:t,"function":e}[typeof e];return n?s(n,"fn-",null,n.name||"anonymous"):e});this.wrapped=t[1]=r}),a.on(d+"-start",function(t){t[1]=this.wrapped||t[1]})},{}],6:[function(t,n,e){var r=t("ee").get("history"),o=t(18)(r);n.exports=r,o.inPlace(window.history,["pushState","replaceState"],"-")},{}],7:[function(t,n,e){var r=t("ee").get("raf"),o=t(18)(r),i="equestAnimationFrame";n.exports=r,o.inPlace(window,["r"+i,"mozR"+i,"webkitR"+i,"msR"+i],"raf-"),r.on("raf-start",function(t){t[0]=o(t[0],"fn-")})},{}],8:[function(t,n,e){function r(t,n,e){t[0]=a(t[0],"fn-",null,e)}function o(t,n,e){this.method=e,this.timerDuration="number"==typeof t[1]?t[1]:0,t[0]=a(t[0],"fn-",this,e)}var i=t("ee").get("timer"),a=t(18)(i),s="setTimeout",c="setInterval",f="clearTimeout",u="-start",d="-";n.exports=i,a.inPlace(window,[s,"setImmediate"],s+d),a.inPlace(window,[c],c+d),a.inPlace(window,[f,"clearImmediate"],f+d),i.on(c+u,r),i.on(s+u,o)},{}],9:[function(t,n,e){function r(t,n){d.inPlace(n,["onreadystatechange"],"fn-",s)}function o(){var t=this,n=u.context(t);t.readyState>3&&!n.resolved&&(n.resolved=!0,u.emit("xhr-resolved",[],t)),d.inPlace(t,w,"fn-",s)}function i(t){v.push(t),h&&(g=-g,b.data=g)}function a(){for(var t=0;t<v.length;t++)r([],v[t]);v.length&&(v=[])}function s(t,n){return n}function c(t,n){for(var e in t)n[e]=t[e];return n}t(5);var f=t("ee"),u=f.get("xhr"),d=t(18)(u),l=NREUM.o,p=l.XHR,h=l.MO,m="readystatechange",w=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"],v=[];n.exports=u;var y=window.XMLHttpRequest=function(t){var n=new p(t);try{u.emit("new-xhr",[n],n),n.addEventListener(m,o,!1)}catch(e){try{u.emit("internal-error",[e])}catch(r){}}return n};if(c(p,y),y.prototype=p.prototype,d.inPlace(y.prototype,["open","send"],"-xhr-",s),u.on("send-xhr-start",function(t,n){r(t,n),i(n)}),u.on("open-xhr-start",r),h){var g=1,b=document.createTextNode(g);new h(a).observe(b,{characterData:!0})}else f.on("fn-end",function(t){t[0]&&t[0].type===m||a()})},{}],10:[function(t,n,e){function r(t){var n=this.params,e=this.metrics;if(!this.ended){this.ended=!0;for(var r=0;r<d;r++)t.removeEventListener(u[r],this.listener,!1);if(!n.aborted){if(e.duration=a.now()-this.startTime,4===t.readyState){n.status=t.status;var i=o(t,this.lastSize);if(i&&(e.rxSize=i),this.sameOrigin){var c=t.getResponseHeader("X-NewRelic-App-Data");c&&(n.cat=c.split(", ").pop())}}else n.status=0;e.cbTime=this.cbTime,f.emit("xhr-done",[t],t),s("xhr",[n,e,this.startTime])}}}function o(t,n){var e=t.responseType;if("json"===e&&null!==n)return n;var r="arraybuffer"===e||"blob"===e||"json"===e?t.response:t.responseText;return h(r)}function i(t,n){var e=c(n),r=t.params;r.host=e.hostname+":"+e.port,r.pathname=e.pathname,t.sameOrigin=e.sameOrigin}var a=t("loader");if(a.xhrWrappable){var s=t("handle"),c=t(11),f=t("ee"),u=["load","error","abort","timeout"],d=u.length,l=t("id"),p=t(14),h=t(13),m=window.XMLHttpRequest;a.features.xhr=!0,t(9),f.on("new-xhr",function(t){var n=this;n.totalCbs=0,n.called=0,n.cbTime=0,n.end=r,n.ended=!1,n.xhrGuids={},n.lastSize=null,p&&(p>34||p<10)||window.opera||t.addEventListener("progress",function(t){n.lastSize=t.loaded},!1)}),f.on("open-xhr-start",function(t){this.params={method:t[0]},i(this,t[1]),this.metrics={}}),f.on("open-xhr-end",function(t,n){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&n.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid)}),f.on("send-xhr-start",function(t,n){var e=this.metrics,r=t[0],o=this;if(e&&r){var i=h(r);i&&(e.txSize=i)}this.startTime=a.now(),this.listener=function(t){try{"abort"===t.type&&(o.params.aborted=!0),("load"!==t.type||o.called===o.totalCbs&&(o.onloadCalled||"function"!=typeof n.onload))&&o.end(n)}catch(e){try{f.emit("internal-error",[e])}catch(r){}}};for(var s=0;s<d;s++)n.addEventListener(u[s],this.listener,!1)}),f.on("xhr-cb-time",function(t,n,e){this.cbTime+=t,n?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof e.onload||this.end(e)}),f.on("xhr-load-added",function(t,n){var e=""+l(t)+!!n;this.xhrGuids&&!this.xhrGuids[e]&&(this.xhrGuids[e]=!0,this.totalCbs+=1)}),f.on("xhr-load-removed",function(t,n){var e=""+l(t)+!!n;this.xhrGuids&&this.xhrGuids[e]&&(delete this.xhrGuids[e],this.totalCbs-=1)}),f.on("addEventListener-end",function(t,n){n instanceof m&&"load"===t[0]&&f.emit("xhr-load-added",[t[1],t[2]],n)}),f.on("removeEventListener-end",function(t,n){n instanceof m&&"load"===t[0]&&f.emit("xhr-load-removed",[t[1],t[2]],n)}),f.on("fn-start",function(t,n,e){n instanceof m&&("onload"===e&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=a.now()))}),f.on("fn-end",function(t,n){this.xhrCbStart&&f.emit("xhr-cb-time",[a.now()-this.xhrCbStart,this.onload,n],n)})}},{}],11:[function(t,n,e){n.exports=function(t){var n=document.createElement("a"),e=window.location,r={};n.href=t,r.port=n.port;var o=n.href.split("://");!r.port&&o[1]&&(r.port=o[1].split("/")[0].split("@").pop().split(":")[1]),r.port&&"0"!==r.port||(r.port="https"===o[0]?"443":"80"),r.hostname=n.hostname||e.hostname,r.pathname=n.pathname,r.protocol=o[0],"/"!==r.pathname.charAt(0)&&(r.pathname="/"+r.pathname);var i=!n.protocol||":"===n.protocol||n.protocol===e.protocol,a=n.hostname===document.domain&&n.port===e.port;return r.sameOrigin=i&&(!n.hostname||a),r}},{}],12:[function(t,n,e){function r(){}function o(t,n,e){return function(){return i(t,[f.now()].concat(s(arguments)),n?null:this,e),n?void 0:this}}var i=t("handle"),a=t(15),s=t(16),c=t("ee").get("tracer"),f=t("loader"),u=NREUM;"undefined"==typeof window.newrelic&&(newrelic=u);var d=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],l="api-",p=l+"ixn-";a(d,function(t,n){u[n]=o(l+n,!0,"api")}),u.addPageAction=o(l+"addPageAction",!0),u.setCurrentRouteName=o(l+"routeName",!0),n.exports=newrelic,u.interaction=function(){return(new r).get()};var h=r.prototype={createTracer:function(t,n){var e={},r=this,o="function"==typeof n;return i(p+"tracer",[f.now(),t,e],r),function(){if(c.emit((o?"":"no-")+"fn-start",[f.now(),r,o],e),o)try{return n.apply(this,arguments)}finally{c.emit("fn-end",[f.now()],e)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,n){h[n]=o(p+n)}),newrelic.noticeError=function(t){"string"==typeof t&&(t=new Error(t)),i("err",[t,f.now()])}},{}],13:[function(t,n,e){n.exports=function(t){if("string"==typeof t&&t.length)return t.length;if("object"==typeof t){if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if(!("undefined"!=typeof FormData&&t instanceof FormData))try{return JSON.stringify(t).length}catch(n){return}}}},{}],14:[function(t,n,e){var r=0,o=navigator.userAgent.match(/Firefox[\/\s](\d+\.\d+)/);o&&(r=+o[1]),n.exports=r},{}],15:[function(t,n,e){function r(t,n){var e=[],r="",i=0;for(r in t)o.call(t,r)&&(e[i]=n(r,t[r]),i+=1);return e}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],16:[function(t,n,e){function r(t,n,e){n||(n=0),"undefined"==typeof e&&(e=t?t.length:0);for(var r=-1,o=e-n||0,i=Array(o<0?0:o);++r<o;)i[r]=t[n+r];return i}n.exports=r},{}],17:[function(t,n,e){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],18:[function(t,n,e){function r(t){return!(t&&t instanceof Function&&t.apply&&!t[a])}var o=t("ee"),i=t(16),a="nr@original",s=Object.prototype.hasOwnProperty,c=!1;n.exports=function(t,n){function e(t,n,e,o){function nrWrapper(){var r,a,s,c;try{a=this,r=i(arguments),s="function"==typeof e?e(r,a):e||{}}catch(f){l([f,"",[r,a,o],s])}u(n+"start",[r,a,o],s);try{return c=t.apply(a,r)}catch(d){throw u(n+"err",[r,a,d],s),d}finally{u(n+"end",[r,a,c],s)}}return r(t)?t:(n||(n=""),nrWrapper[a]=t,d(t,nrWrapper),nrWrapper)}function f(t,n,o,i){o||(o="");var a,s,c,f="-"===o.charAt(0);for(c=0;c<n.length;c++)s=n[c],a=t[s],r(a)||(t[s]=e(a,f?s+o:o,i,s))}function u(e,r,o){if(!c||n){var i=c;c=!0;try{t.emit(e,r,o,n)}catch(a){l([a,e,r,o])}c=i}}function d(t,n){if(Object.defineProperty&&Object.keys)try{var e=Object.keys(t);return e.forEach(function(e){Object.defineProperty(n,e,{get:function(){return t[e]},set:function(n){return t[e]=n,n}})}),n}catch(r){l([r])}for(var o in t)s.call(t,o)&&(n[o]=t[o]);return n}function l(n){try{t.emit("internal-error",n)}catch(e){}}return t||(t=o),e.inPlace=f,e.flag=a,e}},{}],ee:[function(t,n,e){function r(){}function o(t){function n(t){return t&&t instanceof r?t:t?c(t,s,i):i()}function e(e,r,o,i){if(!l.aborted||i){t&&t(e,r,o);for(var a=n(o),s=h(e),c=s.length,f=0;f<c;f++)s[f].apply(a,r);var d=u[y[e]];return d&&d.push([g,e,r,a]),a}}function p(t,n){v[t]=h(t).concat(n)}function h(t){return v[t]||[]}function m(t){return d[t]=d[t]||o(e)}function w(t,n){f(t,function(t,e){n=n||"feature",y[e]=n,n in u||(u[n]=[])})}var v={},y={},g={on:p,emit:e,get:m,listeners:h,context:n,buffer:w,abort:a,aborted:!1};return g}function i(){return new r}function a(){(u.api||u.feature)&&(l.aborted=!0,u=l.backlog={})}var s="nr@context",c=t("gos"),f=t(15),u={},d={},l=n.exports=o();l.backlog=u},{}],gos:[function(t,n,e){function r(t,n,e){if(o.call(t,n))return t[n];var r=e();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return t[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(t,n,e){function r(t,n,e,r){o.buffer([t],r),o.emit(t,n,e)}var o=t("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(t,n,e){function r(t){var n=typeof t;return!t||"object"!==n&&"function"!==n?-1:t===window?0:a(t,i,function(){return o++})}var o=1,i="nr@id",a=t("gos");n.exports=r},{}],loader:[function(t,n,e){function r(){if(!x++){var t=b.info=NREUM.info,n=l.getElementsByTagName("script")[0];if(setTimeout(u.abort,3e4),!(t&&t.licenseKey&&t.applicationID&&n))return u.abort();f(y,function(n,e){t[n]||(t[n]=e)}),c("mark",["onload",a()+b.offset],null,"api");var e=l.createElement("script");e.src="https://"+t.agent,n.parentNode.insertBefore(e,n)}}function o(){"complete"===l.readyState&&i()}function i(){c("mark",["domContent",a()+b.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(s=Math.max((new Date).getTime(),s))-b.offset}var s=(new Date).getTime(),c=t("handle"),f=t(15),u=t("ee"),d=window,l=d.document,p="addEventListener",h="attachEvent",m=d.XMLHttpRequest,w=m&&m.prototype;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:m,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1026.min.js"},g=m&&w&&w[p]&&!/CriOS/.test(navigator.userAgent),b=n.exports={offset:s,now:a,origin:v,features:{},xhrWrappable:g};t(12),l[p]?(l[p]("DOMContentLoaded",i,!1),d[p]("load",r,!1)):(l[h]("onreadystatechange",o),d[h]("onload",r)),c("mark",["firstbyte",s],null,"api");var x=0,E=t(17)},{}]},{},["loader",2,10,4,3]);</script><script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","queueTime":0,"licenseKey":"b18c2b5bc8","agent":"","transactionName":"YwRQN0JVWRcCWk1aXFpOdBZeV0MNDFcWWl1HCFULREcZDAxUXGxFXQRFWV5RQDsUXFhfR1wYbQtfWVI=","applicationID":"15584162","errorBeacon":"bam.nr-data.net","applicationTime":29}</script>
+    <title> SwachhBag | The best way to Advertice your business</title>
+    
+	<!-- Facebook Pixel Code -->
+    <script>
+    !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+    n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+    document,'script','//connect.facebook.net/en_US/fbevents.js');
+
+    fbq('init', '450468495144673');
+    fbq('track', "PageView");</script>
+    <noscript><img height="1" width="1" style="display:none"
+    src="https://www.facebook.com/tr?id=450468495144673&ev=PageView&noscript=1"
+    /></noscript>
+    <!-- End Facebook Pixel Code -->
+    
+<link href="css/bootstrap.min.5d5357cb3704.css" rel="stylesheet">
+<link rel="stylesheet" href="css/font-awesome.min.css">
+<link rel="stylesheet" href="css/jquery-ui.css">
+<link href="css/font-base.2ea5e5e53f51.css" rel="stylesheet">
+<link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+<link href="css/swiper.740e4cfd65bc.css" rel="stylesheet">
+<link href="css/swiper-cart.59041d63004d.css" rel="stylesheet">
+<link rel="stylesheet" href="css/range-slider.5d573b697794.css">
+<link rel="icon" href="/static/img/favicon.png">
+<!-- mixed panel -->
+<!--<script type="text/javascript">
+        !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","page","once","off","on"];analytics.factory=function(t){return function(){var e=Array.prototype.slice.call(arguments);e.unshift(t);analytics.push(e);return analytics}};for(var t=0;t<analytics.methods.length;t++){var e=analytics.methods[t];analytics[e]=analytics.factory(e)}analytics.load=function(t){var e=document.createElement("script");e.type="text/javascript";e.async=!0;e.src=("https:"===document.location.protocol?"https://":"http://")+"cdn.segment.com/analytics.js/v1/"+t+"/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(e,n)};analytics.SNIPPET_VERSION="3.1.0";
+        analytics.load('p9SmEBYsM0wWZh7DCEAE2zUXEzz8mdgq');
+        analytics.page()
+        }}();
+</script>-->
+
+
+<link href="css/wlcommon.a87766ab998e.css" rel="stylesheet" type="text/css" />
+<link href="css/wlheaderfooter.00c13a74e9b8.css" rel="stylesheet" type="text/css" />
+<link href="css/wlportfolio.41534ca7c541.css" rel="stylesheet" type="text/css" />
+<link href="css/wlothers.e2db0fc18dec.css" rel="stylesheet" type="text/css" />
+<link href="css/wlhome.30872ae251ba.css" rel="stylesheet" type="text/css" />
+<link href="css/wlTour.b5f4eb4efc1b.css" rel="stylesheet" type="text/css" />
+<link href="css/wlTaxy.ff8d60f40694.css" rel="stylesheet" type="text/css" />
+
+		</head>
+		<body data-content-title="Wealthy home page">
+      <script>
+        window.fbAsyncInit = function() {
+          FB.init({
+            appId      : '512131318964408',
+            xfbml      : true,
+            version    : 'v2.5'
+          });
+        };
+
+        (function(d, s, id){
+          var js, fjs = d.getElementsByTagName(s)[0];
+          if (d.getElementById(id)) {return;}
+          js = d.createElement(s); js.id = id;
+          js.src = "//connect.facebook.net/en_US/sdk.js";
+          fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+        
+        
+        
+      </script>
+     <div id="st-container" class="st-container ">
+        <div class="st-pusher"> 
+          
+<header class="investment-header" id="home_header">
+  <div class="container-fluid">
+		<div class="row">
+			
+			<div class="col-sm-2 col-xs-10 logo-container">
+				<a class="logo" href="/" title="build wealth logo">
+					<img src="img/sm2logo.jpg" alt="wealthy logo" title="build wealth technologies logo">
+				</a>
+			</div>
+			<div class="col-sm-5 col-xs-2 profile">
+				<nav class="profile-container">
+				  <div class="wl-dropdown btn-group">
+            <a class="product-desktop btn dropdown-toggle" data-toggle="dropdown" href="#">
+              <span class="prod-label">Other Service's</span>
+              <span class="caret"></span>
+            </a>
+           <!-- <a class="product-mobile btn dropdown-toggle" data-toggle="dropdown" href="#">
+              <i class="fa fa-ellipsis-v" aria-hidden="true"></i>
+            </a> -->
+            <ul class="wl-dropdown-menu dropdown-menu pull-right" >
+                <a href="" class="taxy-link first-elem">
+                  <li>
+<!--                    <i class="fa fa-users" aria-hidden="true"></i>-->
+                    <img src="/static/img/taxsaver_small.png" alt="save-tax-online">
+                    <div>
+                      <span class="link">Shopping Bag's</span>
+                      <span class="link-dec">We Design Your Shopping Bag's</span>
+                    </div>
+                  </li>
+                </a>
+                <!--<a href="/" class="product-link second-elem">
+                  <li>
+<!--                    <i class="fa fa-calculator" aria-hidden="true"></i>
+                    <img src="/static/img/investment_small.png" alt="best flexible investments">
+                    <div>
+                      <span class="link">Investment planning</span>
+                      <span class="link-dec">Put your money to work</span>
+                    </div>
+                  </li>
+                </a> -->
+                <a href="" class="insights-link third-elem">
+                  <li>
+<!--                    <i class="fa fa-book" aria-hidden="true"></i>-->
+                    <img src="/static/img/insights_small.png" alt="personal finances">
+                    <div>
+                      <span class="link">Web Development & Digital Marketing</span>
+                      <span class="link-dec">Personal finance in simple words</span>
+                    </div>
+                  </li>
+                </a>
+                <div class="divider mobile-only"></div>
+                <li class="mobile-only"><a class=""  href="/about-us/" title="Wealthy About Us">About us</a></li>
+                <!--<li class="mobile-only"><a class=""  href="/faqs/" title="Wealthy About Us">FAQs</a></li>
+                <li class="mobile-only"><a class=""  href="https://app.wealthy.in/" title="Careers at Wealthy">Login</a></li> -->
+            </ul>
+          </div>
+					<!--<div class="navbar-login-right">
+						<a class="login-navigation-bar" href="https://app.wealthy.in/">Login</a> <!-- We use this to track page event, if change class name we need to change that in home.js too-->
+					</div> 
+            <div class="main-menu btn-group">
+                <button class="nav-toggle dropdown-toggle" style="display: block;" data-toggle="dropdown">
+                  <span></span>
+                </button>
+              <ul class="main-menu-list dropdown-menu pull-right">
+                  <li class="hidden_desktop"><a id="loginBurgerMenu" href="https://app.wealthy.in/"><!-- We  use this to track page event, if change class name we need to change that in home.js too-->
+                             <!-- Login
+                   
+                            </a></li> -->
+                 
+                
+                  <li>
+<!--                    <i class="fa fa-users" aria-hidden="true"></i>-->
+                    <a href="" class="taxy-link first-elem">
+                      <span class="link">Shopping Bag's</span>
+                      
+                    
+                  </li>
+                </a>
+                  <li><a class=""  href="" title="Wealthy About Us">About us</a></li>
+                 <!-- <li><a class=""  href="/careers/" title="Careers at Wealthy">Careers</a></li>
+                  <li><a class="" href="/privacy/" title="Privacy Policy Wealthy">Privacy policy</a></li>
+                  <li><a class="" href="/faqs/" title="frequently asked questions wealthy">FAQs</a></li>
+                  <li class="divider"></li> -->
+                  <div class="wl-contact-us"><span>Need any help? Contact us</span>
+                    <p>contact@swachhbag.com</p>
+                  </div>
+              </ul>
+            </div>
+				</nav>		
+			</div>
+		</div>
+	</div>
+</header>
+
+          <main>
+              
+<div class="home-get-started" style="background-image: url('img/ad4.png');">
+<!--  <div class="padding"></div>-->
+  <div class="get-start-text">
+    <span>We put your Business in<span class="white-text"> hands</span> of customer</span>
+    <!--<a><button class="main-start-btn transition" id="clickForOnboard">GET STARTED</button></a>-->
+  </div>
+</div>
+
+<div class="wl-how-works">
+  <h1>How it works</h1>
+  <div class="wl-working-brief">
+    <div class="wl-working-each  animation-element one-time">
+      <div class="first bottom-anim">
+        <img src="img/adbag.png" alt="invest anytime">
+        <h2>Design</h2>
+        <div>
+          <p>We design your advertisement and start production .</p>
+        </div>
+      </div>
+    </div>
+    
+    <div class="wl-working-each  animation-element one-time">
+      <div class="third bottom-anim">
+        <img src="img/31520.png" alt="withdraw anytime">
+        <h2>Distribution</h2>
+        <div>
+          <p>We distribute your bags to general stores and vegetable market with in 3 days.</p>
+        </div>
+      </div>
+    </div>
+    <div class="wl-working-each animation-element one-time">
+      <div class="second bottom-anim">
+        <img src="https://i.wlycdn.com/wealthy-home-page/watch-grow.svg" alt="watch your money grow">
+        <h2>Watch it grow</h2>
+        <div>
+          <p>Our Business experts make sure you get maximum return on your investments.<p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="how-actually-works">
+  <div class="actually-works-container">
+    <div class="image animation-element">
+      <div class="hand"><div><img src="img/AD2.png" alt="hand drop"></div></div>
+      <img id="how_img" src="https://img.clipartfest.com/2fa9c79278c39b3ea339b21edca33bab_hands-thirty-hands-clipart-transparent-background_704-929.png" alt="maximise your returns"> 
+    </div>
+    <div id="how_des1" class="description">
+      <h1>What we do for you</h1>
+      <span>Our company swachhBag help multinational as well as local companies to advertise their products or services at very reasonable price.This is very effective idea for marketing as our bags will reach directly to customers through general stores and vegetable market .</span>
+    </div>
+  </div>
+</div>
+
+<!--<div class="wl-advantages">
+  <h1>Our promise</h1>
+  <div class="wl-adv-container">
+    <div class="each-adv animation-element one-time" flex="50">
+      <div class="image left left-anim" id="offer_img1"><img src="https://i.wlycdn.com/wealthy-home-page/zero-effort.png" alt="invest without any effort"></div>
+      <div class="description right-anim">
+        <h2>Zero effort</h2>
+        <span>Opening an investment account with us is 100% paperless. No physical forms, photocopies or photographs.</span>
+      </div>
+    </div>
+    <div class="each-adv animation-element one-time" flex="50">
+      <div class="description left-anim">
+        <h2>Always available</h2>
+        <span>We are always available to clear up any of your financial worries regarding investments, taxes or planning your future.</span>
+      </div>
+      <div class="image right right-anim" id="offer_img2"><img src="https://i.wlycdn.com/wealthy-home-page/always-available.png" alt="always available"></div>
+    </div>
+    <div class="each-adv animation-element one-time" flex="50">
+      <div class="image left left-anim" id="offer_img3"><img src="https://i.wlycdn.com/wealthy-home-page/safe-and-secure.png" alt="safe and secure investments"></div>
+      <div class="description right-anim">
+        <h2>Safe and secure</h2>
+        <span>Wealthy uses bank-grade security to manage your money and your personal data is not shared with anyone.</span>
+      </div>
+    </div>
+    <div class="each-adv animation-element one-time" flex="50">
+      <div class="description left-anim">
+        <h2>Fully transparent</h2>
+        <span>No hidden charges or fees, get full account of how your money is managed on your personal dashboard</span>
+      </div>
+      <div class="image right right-anim" id="offer_img4"><img src="https://i.wlycdn.com/wealthy-home-page/fully-transparent.png" alt="fully transparent"></div>
+    </div>
+  </div>
+</div>
+<div class="wave-container">
+  <div class="wave"></div>  
+</div> -->
+
+<!--<div class="amount-compare common-tooltip-container">
+  <h1>Seeing is believing</h1>
+  <p class="what-seeing-is-believing">
+    Comparison of historic returns with Wealthy for different time periods
+    <i class="icon-help_outline" aria-hidden="true" title="Projections are based on historic averages and don’t represent a guarantee of returns"></i>
+  </p>
+  <div class="compare-container">
+    <div class="amount-input animation-element one-time">
+      <output name="ageOutputName" id="choosenAmount">15000</output>
+      <input id="amountInput" name="amountInputname" type="range" min="5000" max="500000" step="1000" value="150000">
+    </div>
+    <div style="padding: .5em;" class="select-year">
+      <span>IN&nbsp;</span>
+      <select class="selectpicker" id="invest-year">
+        <option value="1">ONE YEAR</option>
+        <option value="3" selected>THREE YEARS</option>
+        <option value="5">FIVE YEARS</option>
+        <option value="10">TEN YEARS</option>
+      </select>
+    </div>
+    
+
+    <div class="amount-output">
+      <div>
+        <output name="wealthy_return" id="wealthyReturn" class="return"></output>
+        <span class="return-text">WEALTHY</span>
+      </div>
+      <div class="middle-compare">
+        <output name="fd_return" id="fdReturn" class="return"></output>
+        <span class="return-text">FIXED DEPOSIT</span>
+      </div>
+      <div>
+        <output name="nsc_return" id="nscReturn" class="return"></output>
+        <span class="return-text">DIY</span>
+      </div>
+    </div>
+  </div>
+</div> -->
+<!--
+<div class="wl-testimonials-container desktop">
+  <h1>Testimonials</h1>
+  <div>
+    <div  class="wl-testimonials">
+      <div class="small-card c1 flip-container" ontouchstart="this.classList.toggle('hover');">
+       <div class="flipper">
+          <div class="front">
+            <img src="/static/img/economic-times.png">
+            <span class="date">Feb 24, 2016</span>
+          </div>
+          <div class="back">
+            <span class="main-text">Completing the investing process entirely online is not a pipe-dream any more</span>
+            <a class="goto-button" href="http://economictimes.indiatimes.com/wealth/personal-finance-news/know-your-customer-leaves-no-paper-trail/articleshow/51118974.cms" >Read more </a>
+          </div>
+        </div>
+      </div>
+      <div class="big-card c2 flip-container" ontouchstart="this.classList.toggle('hover');">
+        <div class="flipper">
+          <div class="front">
+            <span class="logo"><i>money<b>control</b></i></span>
+            <span class="date">Feb 25, 2016</span>
+          </div>
+          <div class="back">
+            <span class="main-text">Wealthy has cracked the algorithm to identify investment options that are tailor-made to address individual needs</span>
+            <a class="goto-button" href="http://www.moneycontrol.com/news/wire-news/wealthyin-sets-out-to-assistaverage-indian-to-make-wise-investment-decisions_5639741.html" >Read more</a>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+    <div  class="wl-testimonials">
+      <div class="small-card c4 flip-container" ontouchstart="this.classList.toggle('hover');">
+        <div class="flipper">
+          <div class="front twitter">
+            <img src="/static/img/twitter_new.png" style="height: 70px;">
+            <span class="date">@codingkapoor</span>
+          </div>
+          <div class="back">
+            <span class="main-text">Loved the selfie taking experience for KYC </span>
+            <a class="goto-button" href="https://twitter.com/codingkapoor/status/712292375167508480" >Read more 
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="small-card c3 flip-container" ontouchstart="this.classList.toggle('hover');">
+        <div class="flipper">
+          <div class="front">
+            <img src="/static/img/inc_42_new.png" style="height: 100px;">
+            <span class="date">Mar 17, 2016</span>
+          </div>
+          <div class="back">
+            <span>Wealthy is here to make investing as easy as taking a selfie</span>
+            <a class="goto-button" href="https://inc42.com/startups/startup-wealthy/" >Read more</a>
+<!--            <span class="article-label">- VCCiRCLE</span>-->
+ <!--         </div>
+        </div>
+      </div>
+      
+      <div class="small-card c5 flip-container" ontouchstart="this.classList.toggle('hover');">
+        <div class="flipper">
+          <div class="front twitter">
+            <img src="/static/img/twitter_new.png" style="height: 70px;">
+            <span class="date">@vishalborkar</span>
+          </div>
+          <div class="back">
+            <span>Investment advice backed with real numbers and real data.</span>
+            <a class="goto-button" href="https://twitter.com/vishalborkar/status/714425000292265988" >Read more
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!---    <div class="wl-testimonials-container mobile">
+  <h1>Testimonials</h1>
+  <div class="others">
+    <div class="swiper-container s1 ">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide wl-testimonials">
+              <div class="small-card c1 flip-container" ontouchstart="this.classList.toggle('hover');">
+               <div class="flipper">
+                  <div class="front">
+                    <img src="/static/img/economic-times.png" style="max-width: 100%;">
+                    <span class="date">Feb 24, 2016</span>
+                  </div>
+                  <div class="back">
+                    <span class="main-text">Completing the investing process entirely online is not a pipe-dream any more</span>
+                    <div class="link"><a class="goto-button" href="http://economictimes.indiatimes.com/wealth/personal-finance-news/know-your-customer-leaves-no-paper-trail/articleshow/51118974.cms" >Read more </a></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide wl-testimonials">
+              <div class="small-card c2 flip-container" ontouchstart="this.classList.toggle('hover');">
+               <div class="flipper">
+                  <div class="front">
+                    <span class="logo"><i>money<b>control</b></i></span>
+                    <span class="date">Feb 25, 2016</span>
+                  </div>
+                  <div class="back">
+                    <span class="main-text">Wealthy has cracked the algorithm to identify investment options that are tailor-made to address individual needs</span>
+                    <div class="link"><a class="goto-button" href="http://www.moneycontrol.com/news/wire-news/wealthyin-sets-out-to-assistaverage-indian-to-make-wise-investment-decisions_5639741.html" >Read more</a></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide wl-testimonials">
+              <div class="small-card c3 flip-container" ontouchstart="this.classList.toggle('hover');">
+               <div class="flipper">
+                  <div class="front twitter">
+                    <img src="/static/img/twitter_new.png" style="height: 70px;">
+                    <span class="date">@codingkapoor</span>
+                  </div>
+                  <div class="back">
+                    <span class="main-text">Loved the selfie taking experience for KYC </span>
+                    <div class="link"><a class="goto-button" href="https://twitter.com/codingkapoor/status/712292375167508480" >Read more</a></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide wl-testimonials">
+              <div class="small-card c4 flip-container" ontouchstart="this.classList.toggle('hover');">
+                <div class="flipper">
+                  <div class="front">
+                    <img src="/static/img/inc_42_new.png" style="height: 88px;">
+                    <span class="date">Mar 17, 2016</span>
+                  </div>
+                  <div class="back">
+                    <span>Wealthy is here to make investing as easy as taking a selfie</span>
+                    <div class="link"><a class="goto-button" href="https://inc42.com/startups/startup-wealthy/" >Read more</a></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide wl-testimonials ">
+              <div class="small-card c5 flip-container" ontouchstart="this.classList.toggle('hover');">
+                <div class="flipper">
+                  <div class="front twitter">
+                    <img src="/static/img/twitter_new.png" style="height: 70px;">
+                    <span class="date">@vishalborkar</span>
+                  </div>
+                  <div class="back">
+                    <span>Investment advice backed with real numbers and real data.</span>
+                    <div class="link"><a class="goto-button" href="https://twitter.com/vishalborkar/status/714425000292265988" >Read more</div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+        <!-- Add Arrows -->
+      <!--      <div class="swiper-button-next-cart"></div>
+        <div class="swiper-button-prev-cart"></div>
+    </div>
+  </div>
+</div>           --->
+
+
+<!--onborard selection div-->
+
+<!--onborard selection div-->
+
+
+<div class="other-product-container">
+  <h1>Other services</h1>
+  <div class="other-products">
+    <a class="product-taxy " flex href="" >
+        <div class="product-img"><img src="http://www.polyu.edu.hk/aado/alumni/e_bulletin/AlumNews/graphic/issue10/Non-woven-bag_small.gif" alt="money safe"></div>
+        <div class="product-des">
+          <div><h2>Shopping Bags</h2></div>
+          <span><!--Make tax-saving investments with Wealthy of upto Rs. 1.5 lac to claim full tax benefits this financial year --></span>
+        </div>
+    </a>
+    <a class="product-wealthy" href="">
+      <div class="product-img"><img src="https://novelwebdesigns.com/wp-content/themes/novel/assets/img/slide-1.png" alt="insights product"></div>
+      <div class="product-des">
+        <div><h2>Web development & Digital Marketing</h2></div>
+        <span><!--Learn how to be financially smart and  independent with Insights, a library of jargon-free financial advice.--></span>
+      </div>
+    </a>
+  </div>
+  <div class="beach">
+
+  </div>
+</div>
+
+
+
+
+
+          </main>
+          
+<footer>
+  <div class="wl-footer">
+    <div class="wl-basic">
+      <img class="logo" src="img/sm2logo.jpg" alt="wealthy logo" title="logo of buildwealth technologies private limited">
+      <p class="logo-text">
+        Make better Marketing decisions and grow your business.
+      </p>
+      <ul class="social">
+        <li>
+          <a href="https://www.facebook.com/" target="_blank">
+            <img src="/static/img/footer/fb_icon.png" alt="">
+          </a>
+        </li>
+        <li>
+          <a href="https://twitter.com/" target="_blank">
+            <img src="/static/img/footer/twitter_icon.png" alt="">
+          </a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/" target="_blank">
+            <img src="/static/img/footer/insta_icon.png" alt="">
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div class="wl-products">
+      <h2>SERVICES</h2>
+      <a href="/">SHOPPING BAGS</a>
+      <a href="">WEB DEVELOPMENT & <br>DIGITAL MARKETING </a>
+     <!-- <a href="/insights/">Insights</a>-->
+    </div>
+    <div class="wl-products">
+      <h2>contact Us</h2>
+      <a href="">9133758885</a>
+      <a href="">contact@swachhbag.com</a>
+      <!--<a href="/careers/">Careers</a>
+      <a href="/privacy/">Privacy policy</a> -->
+    </div>
+    <!--<div class="wl-products">
+      <h2>DOWNLOAD APP</h2>
+      <a href="https://play.google.com/store/apps/details?id=in.wealthy.android.wealthy" target="_blank">
+        <img class="download-app" src="/static/img/footer/google_play.svg" alt="">
+      </a>
+    </div>-->
+  </div>
+</footer>
+          
+<script type="text/javascript" src="js/jquery.min.4a356126b957.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.4becdc910462.js"></script>
+<script type="text/javascript" src="js/range-slider.1d883ef7a6ac.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+
+
+<script type="text/javascript" src="js/wlvendor.a4dadf1498f6.js" charset="utf-8"></script>
+<script type="text/javascript" src="js/wlhome.4493060cb312.js" charset="utf-8"></script>
+<script type="text/javascript" src="js/jscookies.653a6b56acc2.js" charset="utf-8"></script>
+
+        </div>
+      </div>
+		</body>
+</html>
